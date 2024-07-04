@@ -14,7 +14,7 @@
 
 
 ## Installation
- - `composer req t3brightside/formwebhooksend` or from TYPO3 extension repository **[formwebhooksend](https://extensions.typo3.org/extension/formwebhooksend/)**
+ - `composer req t3brightside/formwebhooksend`
  - Include static template
  - Add finisher to your form and edit the fields
 - Custom values example:
@@ -33,7 +33,6 @@ textarea-1: message
 ## Sources
 -  [GitHub](https://github.com/t3brightside/formwebhooksend)
 -  [Packagist](https://packagist.org/packages/t3brightside/formwebhooksend)
--  [TER](https://extensions.typo3.org/extension/formwebhooksend/)
 
 ## Development & maintenance
 [Brightside OÜ – TYPO3 development and hosting specialised web agency](https://t3brightside.com/)
