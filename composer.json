@@ -10,9 +10,7 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "^12.4 || ^13.0",
-        "guzzlehttp/guzzle": "^7.0",
-        "symfony/yaml": "^6.4 || ^7.1"
+		"typo3/cms-form": "^12.4 || ^13.0"
     },
     "autoload": {
         "psr-4": {
