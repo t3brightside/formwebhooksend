@@ -1,0 +1,7 @@
+plugin.tx_form {
+    settings {
+        yamlConfigurations {
+            100898989 = EXT:formwebhooksend/Configuration/Yaml/FormFE.yaml
+        }
+    }
+}

@@ -1,0 +1,57 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formElementsDefinition:
+            Form:
+              formEditor:
+                editors:
+                  900:
+                    selectOptions:
+                      100898989:
+                        value: 'FormwebhooksendFinisher'
+                        label: 'Webhook Send'
+
+                propertyCollections:
+                  finishers:
+                    100898989:
+                      identifier: 'FormwebhooksendFinisher'
+                      editors:
+                        100:
+                          identifier: header
+                          templateName: Inspector-CollectionElementHeaderEditor
+                          label: 'Webhook Send'
+                        200:
+                          identifier: webhookUrl
+                          templateName: Inspector-TextEditor
+                          label: 'Webhook URL'
+                          propertyPath: 'options.webhookUrl'
+                        250:
+                          identifier: apiToken
+                          templateName: Inspector-TextEditor
+                          label: 'Api Token'
+                          propertyPath: 'options.apiToken'
+                        300:
+                          identifier: fieldMappings
+                          templateName: Inspector-TextareaEditor
+                          label: 'Field Mappings (YAML)'
+                          propertyPath: 'options.fieldMappings'
+                        400:
+                          identifier: customValues
+                          templateName: Inspector-TextareaEditor
+                          label: 'Custom Values'
+                          propertyPath: 'options.customValues'
+                        9999:
+                          identifier: removeButton
+                          templateName: Inspector-RemoveElementEditor
+
+          finishersDefinition:
+            FormwebhooksendFinisher:
+              formEditor:
+                iconIdentifier: 'form-finisher'
+              options:
+                webhookUrl: ''
+                apiToken: ''
+                customValues: ''
+                fieldMappings: ''

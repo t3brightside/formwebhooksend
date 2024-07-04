@@ -1,0 +1,15 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          finishersDefinition:
+            FormwebhooksendFinisher:
+              formEngine:
+                label: 'Webhook Send'
+              implementationClassName: 'Brightside\Formwebhooksend\Domain\Finishers\FormwebhooksendFinisher'
+              options:
+                webhookUrl: ''
+                apiToken: ''
+                customValues: ''
+                fieldMappings: ''
