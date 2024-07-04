@@ -12,7 +12,6 @@
 - Add custom values
 - Map form fields to custom identifiers, **only** mapped fields are sent
 
-
 ## Installation
  - `composer req t3brightside/formwebhooksend`
  - Include static template
@@ -29,10 +28,10 @@ email-1: mail
 textarea-1: message
 ```
 
-
 ## Sources
 -  [GitHub](https://github.com/t3brightside/formwebhooksend)
 -  [Packagist](https://packagist.org/packages/t3brightside/formwebhooksend)
+-  [TER](https://extensions.typo3.org/extension/formwebhooksend/)
 
 ## Development & maintenance
 [Brightside OÜ – TYPO3 development and hosting specialised web agency](https://t3brightside.com/)
