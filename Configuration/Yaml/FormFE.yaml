@@ -13,3 +13,5 @@ TYPO3:
                 apiToken: ''
                 customValues: ''
                 fieldMappings: ''
+                errorEmailReceiver: ''
+                errorEmailSubject: ''

@@ -42,6 +42,16 @@ TYPO3:
                           templateName: Inspector-TextareaEditor
                           label: 'Custom Values'
                           propertyPath: 'options.customValues'
+                        500:
+                          identifier: errorEmailReceiver
+                          templateName: Inspector-TextEditor
+                          label: 'Error E-mail Receiver'
+                          propertyPath: 'options.errorEmailReceiver'
+                        600:
+                          identifier: errorEmailSubject
+                          templateName: Inspector-TextEditor
+                          label: 'Error E-mail Subject'
+                          propertyPath: 'options.errorEmailSubject'
                         9999:
                           identifier: removeButton
                           templateName: Inspector-RemoveElementEditor
@@ -55,3 +65,5 @@ TYPO3:
                 apiToken: ''
                 customValues: ''
                 fieldMappings: ''
+                errorEmailReceiver: ''
+                errorEmailSubject: ''

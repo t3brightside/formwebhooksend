@@ -10,7 +10,7 @@
 - Webhook URL
 - API token (stored in form definition file for now = NOT SECURE)
 - Add custom values
-- Map form fields to custom identifiers, **only** mapped fields are sent
+- Map form fields to custom identifiers
 
 ## Installation
  - `composer req t3brightside/formwebhooksend`
