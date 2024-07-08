@@ -1,14 +1,16 @@
 {
     "name": "t3brightside/formwebhooksend",
-    "description": "Form Webhook Send Finisher",
+    "description": "Form webhook send finisher",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
-    "authors": [
-        {
-            "name": "Your Name",
-            "email": "your@email.com"
-        }
-    ],
+	"homepage": "https://t3brightside.com",
+	"authors": [
+		{
+			"name": "Tanel Põld",
+			"role": "Developer",
+			"homepage": "https://t3brightside.com"
+		}
+	],
     "require": {
 		"typo3/cms-form": "^12.4 || ^13.0"
     },
