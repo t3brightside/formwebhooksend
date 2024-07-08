@@ -1,0 +1,16 @@
+* 1.1.0
+    [TASK] add developer information
+    [TASK] add ChangeLog
+    [FEATURE] send email notification on error
+* 1.0.4
+    [TASK] make it TER ready
+* 1.0.3) [TASK] simplify required packages
+* 1.0.2
+    [TASK] add symfony/yaml 6.4 for v12.4
+    [TASK] add license
+* 1.0.1
+    [TASK] add extension icon
+    [TASK] shorten description
+    [TASK] add .gitignore
+* 1.0.0
+    [TASK] initial commit
