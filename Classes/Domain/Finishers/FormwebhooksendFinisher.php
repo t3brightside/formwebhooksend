@@ -8,7 +8,6 @@ use TYPO3\CMS\Core\Mail\MailMessage;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use Symfony\Component\Mime\Address;
 
-
 class FormwebhooksendFinisher extends AbstractFinisher
 {
     protected function executeInternal()
@@ -97,7 +96,12 @@ class FormwebhooksendFinisher extends AbstractFinisher
 
         foreach ($fieldMappings as $originalKey => $mappedKey) {
             if (isset($formValues[$originalKey])) {
-                $mappedData[$mappedKey] = $formValues[$originalKey];
+                if (strpos($mappedKey, ',json') !== false) {
+                    $mappedKey = explode(',', $mappedKey)[0];
+                    $mappedData[$mappedKey] = json_decode($formValues[$originalKey], true);
+                } else {
+                    $mappedData[$mappedKey] = $formValues[$originalKey];
+                }
             }
         }
 
