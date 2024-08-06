@@ -11,6 +11,7 @@
 - API token (stored in form definition file for now = NOT SECURE)
 - Add custom values
 - Map form fields to custom identifiers
+- Define field content as JSON data, see mapping example below
 
 ## Installation
  - `composer req t3brightside/formwebhooksend`
@@ -26,6 +27,7 @@ group_id: 12
 text-1: name
 email-1: mail
 textarea-1: message
+textarea-2: data,json
 ```
 
 ## Sources

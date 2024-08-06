@@ -1,3 +1,5 @@
+* 1.2.0
+    [FEATURE] send field content as JSON data
 * 1.1.0
     [TASK] add developer information
     [TASK] add ChangeLog
